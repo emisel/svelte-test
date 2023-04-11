@@ -1,0 +1,108 @@
+p.well {
+  padding: 15px;
+  border-radius: 4px;
+  border: solid 1px; }
+  p.well:hover {
+    background-color: #c3c2c2; }
+
+/*h1.hero {
+    color: var(--main-green);
+    font-size: 0.85em;
+    letter-spacing: 0.3em;
+    font-weight:500;
+}
+
+h2.hero {
+    color: var(--main-text);
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h3.hero {
+    color: var(--secondary-text);
+    font-size: 2em;
+    margin-top: 0;
+}
+*/
+.hero {
+  font-size: 2em; }
+  .hero h1 {
+    font-size: 0.55em;
+    letter-spacing: 0.3em;
+    font-weight: 500; }
+  .hero h2 {
+    margin-top: 0;
+    margin-bottom: 0; }
+  .hero h3 {
+    margin-top: 0; }
+
+.container {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center; }
+
+.main {
+  width: 320px; }
+
+.tk .group {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px; }
+.tk .group > label {
+  flex: 1; }
+.tk .group > input {
+  flex: 2; }
+.tk input {
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  border: solid 1px transparent;
+  background-color: #c3c2c2;
+  transition: border 0.3s ease-in; }
+.tk input:focus {
+  box-sizing: border-box;
+  animation: fadein 2s;
+  box-shadow: 0 0px 4px;
+  border: solid 1px;
+  /*border:solid 1px  red;*/ }
+
+/**
+ *
+ * COLORS
+ *
+ **/
+body {
+  background-color: #0a192f; }
+
+.tk {
+  color: #ccd6f6;
+  font-family: sans-serif; }
+  .tk .hero h1 {
+    color: #64ffda; }
+  .tk .hero h3 {
+    color: #8892b0; }
+  .tk p.well {
+    border-color: #64ffda;
+    color: #64ffda; }
+    .tk p.well:hover {
+      background-color: rgba(100, 255, 218, 0.1); }
+  .tk input[type=time]::-webkit-datetime-edit-hour-field:focus {
+    background-color: rgba(100, 255, 218, 0.1);
+    color: var(--main-text); }
+  .tk input[type=time]::-webkit-datetime-edit-minute-field:focus {
+    background-color: rgba(100, 255, 218, 0.1);
+    color: var(--main-text); }
+  .tk .group > label {
+    color: #8892b0; }
+  .tk .group > input {
+    color: #ccd6f6; }
+  .tk input {
+    background-color: #112240; }
+    .tk input:focus {
+      box-shadow: 0 0px 4px #64ffda;
+      border-color: #64ffda; }
+
+/*# sourceMappingURL=style.css.map */
